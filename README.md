@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Concentric Magic Squares — Mystimath
 
 This folder contains experimental Python scripts related to **concentric magic squares**, also known in French as **carrés magiques concentriques** or **carrés magiques à enceintes**.
@@ -191,3 +192,6 @@ The purpose of this folder is to make the Mystimath work more transparent and re
 The website may present selected visualizations, articles and editorial structures, while this repository documents the scripts and verification methods behind part of the work.
 
 
+=======
+# concentric-magic-squares
+>>>>>>> e19f7a9f23233b2668b1d35927fb778a3d69a734
