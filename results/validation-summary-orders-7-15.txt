@@ -1,0 +1,52 @@
+ ========================================================================
+Génération d'un carré magique concentrique d'ordre 9
+========================================================================
+Valeurs normales validées : 1 à 81.
+Centre correct : 41.
+Sous-carré 3x3 validé, constante 123, valeurs 37..45.
+Sous-carré 5x5 validé, constante 205, valeurs 29..53.
+Sous-carré 7x7 validé, constante 287, valeurs 17..65.
+Sous-carré 9x9 validé, constante 369, valeurs 1..81.
+[OK] Carré magique concentrique validé.
+[OK] JSON sauvegardé : concentric-magic-squares\generated\carre-magique-concentrique-ordre-9.json
+========================================================================
+Génération d'un carré magique concentrique d'ordre 11
+========================================================================
+Valeurs normales validées : 1 à 121.
+Centre correct : 61.
+Sous-carré 3x3 validé, constante 183, valeurs 57..65.
+Sous-carré 5x5 validé, constante 305, valeurs 49..73.
+Sous-carré 7x7 validé, constante 427, valeurs 37..85.
+Sous-carré 9x9 validé, constante 549, valeurs 21..101.
+Sous-carré 11x11 validé, constante 671, valeurs 1..121.
+[OK] Carré magique concentrique validé.
+[OK] JSON sauvegardé : concentric-magic-squares\generated\carre-magique-concentrique-ordre-11.json
+========================================================================
+Génération d'un carré magique concentrique d'ordre 13
+========================================================================
+Valeurs normales validées : 1 à 169.
+Centre correct : 85.
+Sous-carré 3x3 validé, constante 255, valeurs 81..89.
+Sous-carré 5x5 validé, constante 425, valeurs 73..97.
+Sous-carré 7x7 validé, constante 595, valeurs 61..109.
+Sous-carré 9x9 validé, constante 765, valeurs 45..125.
+Sous-carré 11x11 validé, constante 935, valeurs 25..145.
+Sous-carré 13x13 validé, constante 1105, valeurs 1..169.
+[OK] Carré magique concentrique validé.
+[OK] JSON sauvegardé : concentric-magic-squares\generated\carre-magique-concentrique-ordre-13.json
+========================================================================
+Génération d'un carré magique concentrique d'ordre 15
+========================================================================
+Valeurs normales validées : 1 à 225.
+Centre correct : 113.
+Sous-carré 3x3 validé, constante 339, valeurs 109..117.
+Sous-carré 5x5 validé, constante 565, valeurs 101..125.
+Sous-carré 7x7 validé, constante 791, valeurs 89..137.
+Sous-carré 9x9 validé, constante 1017, valeurs 73..153.
+Sous-carré 11x11 validé, constante 1243, valeurs 53..173.
+Sous-carré 13x13 validé, constante 1469, valeurs 29..197.
+Sous-carré 15x15 validé, constante 1695, valeurs 1..225.
+[OK] Carré magique concentrique validé.
+[OK] JSON sauvegardé : concentric-magic-squares\generated\carre-magique-concentrique-ordre-15.json
+
+[SUCCES] Génération terminée.

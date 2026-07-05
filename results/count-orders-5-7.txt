@@ -1,0 +1,27 @@
+PS C:\dev\mystimath> python concentric-magic-squares/count_concentric_odd_squares.py --orders 5 7
+========================================================================
+Comptage des carrés magiques concentriques d'ordre 5
+========================================================================
+Centre : 13
+
+Comptes par couche :
+  couche 3x3 : 8
+  couche 5x5 : 2 880
+
+Total brut : 23 040
+Total hors rotations/réflexions : 2 880
+
+========================================================================
+Comptage des carrés magiques concentriques d'ordre 7
+========================================================================
+Centre : 25
+
+Comptes par couche :
+  couche 3x3 : 8
+  couche 5x5 : 2 880
+  couche 7x7 : 21 312 000
+
+Total brut : 491 028 480 000
+Total hors rotations/réflexions : 61 378 560 000
+
+Note : le total brut est trop grand pour une génération matérielle complète fichier par fichier. 

@@ -1,0 +1,26 @@
+# Dépendances et environnements virtuels
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Éditeurs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Carrés magiques concentriques générés localement
+concentric-magic-squares/generated/
+concentric-magic-squares/private/
+concentric-magic-squares/*.local.json
