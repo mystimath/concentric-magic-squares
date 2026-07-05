@@ -21,9 +21,6 @@ __pycache__/
 Thumbs.db
 
 # Carrés magiques concentriques générés localement
-concentric-magic-squares/generated/
-concentric-magic-squares/private/
-concentric-magic-squares/*.local.json
 generated/
 private/
 *.local.json
