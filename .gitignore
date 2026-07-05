@@ -24,3 +24,6 @@ Thumbs.db
 concentric-magic-squares/generated/
 concentric-magic-squares/private/
 concentric-magic-squares/*.local.json
+generated/
+private/
+*.local.json
