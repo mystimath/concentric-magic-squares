@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # Concentric Magic Squares — Mystimath
 
-This folder contains experimental Python scripts related to **concentric magic squares**, also known in French as **carrés magiques concentriques** or **carrés magiques à enceintes**.
+This repository contains experimental Python scripts related to **concentric magic squares**, also known in French as **carrés magiques concentriques** or **carrés magiques à enceintes**.
 
 The goal is not to publish a complete editorial database of selected squares, but to document:
 
@@ -11,7 +10,7 @@ The goal is not to publish a complete editorial database of selected squares, bu
 - experimental counts for small orders;
 - methodological limits.
 
-The editorial JSON files used by the Mystimath website are not included in this public folder.
+The editorial JSON files used by the Mystimath website are intentionally not included in this public repository.
 
 ## 1. Definition used here
 
@@ -49,7 +48,7 @@ center = 25
 
 ## 2. Public and private data
 
-This folder intentionally separates reproducible scripts from the editorial database.
+This repository intentionally separates reproducible scripts from the editorial database.
 
 Published:
 
@@ -80,25 +79,25 @@ Generates concentric magic squares of odd order using complementary borders.
 Example:
 
 ```bash
-python concentric-magic-squares/generate_concentric_odd_square.py --order 9
+python generate_concentric_odd_square.py --order 9
 ```
 
 To print the generated square in the console:
 
 ```bash
-python concentric-magic-squares/generate_concentric_odd_square.py --order 9 --print
+python generate_concentric_odd_square.py --order 9 --print
 ```
 
 To generate several orders:
 
 ```bash
-python concentric-magic-squares/generate_concentric_odd_square.py --orders 7 9 11 13 15
+python generate_concentric_odd_square.py --orders 7 9 11 13 15
 ```
 
 To export private JSON files locally:
 
 ```bash
-python concentric-magic-squares/generate_concentric_odd_square.py --orders 9 11 13 15 --out-dir concentric-magic-squares/generated
+python generate_concentric_odd_square.py --orders 9 11 13 15 --out-dir generated
 ```
 
 The `generated/` folder is ignored by Git.
@@ -110,7 +109,7 @@ Counts a strict family of concentric magic squares built by complementary center
 Example:
 
 ```bash
-python concentric-magic-squares/count_concentric_odd_squares.py --orders 5 7
+python count_concentric_odd_squares.py --orders 5 7
 ```
 
 This count concerns the strict construction family implemented in the script. It should not be presented as the complete historical count of all possible concentric or bordered magic squares under every possible definition.
@@ -154,13 +153,13 @@ The validation summary should not include full generated grids if the editorial 
 To generate a validation summary without printing grids:
 
 ```bash
-python concentric-magic-squares/generate_concentric_odd_square.py --orders 7 9 11 13 15 > concentric-magic-squares/results/validation-summary-orders-7-15.txt
+python generate_concentric_odd_square.py --orders 7 9 11 13 15 > results/validation-summary-orders-7-15.txt
 ```
 
 To generate count results:
 
 ```bash
-python concentric-magic-squares/count_concentric_odd_squares.py --orders 5 7 > concentric-magic-squares/results/count-orders-5-7.txt
+python count_concentric_odd_squares.py --orders 5 7 > results/count-orders-5-7.txt
 ```
 
 ## 6. Historical note
@@ -187,11 +186,6 @@ Therefore, the counts produced here should be described as counts of this strict
 
 ## 8. Mystimath objective
 
-The purpose of this folder is to make the Mystimath work more transparent and reproducible.
+The purpose of this repository is to make part of the Mystimath work more transparent and reproducible.
 
-The website may present selected visualizations, articles and editorial structures, while this repository documents the scripts and verification methods behind part of the work.
-
-
-=======
-# concentric-magic-squares
->>>>>>> e19f7a9f23233b2668b1d35927fb778a3d69a734
+The Mystimath website may present selected visualizations, articles and editorial structures, while this repository documents the scripts and verification methods behind part of the work.
