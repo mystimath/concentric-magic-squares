@@ -24,3 +24,8 @@ Thumbs.db
 generated/
 private/
 *.local.json
+
+# État local des outils d'assistance
+.codex/
+.codex-state/
+logs/codex-sessions/
